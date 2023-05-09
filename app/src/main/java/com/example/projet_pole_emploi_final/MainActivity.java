@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         SearchView searchView = findViewById(R.id.search_view);
 
 // Configurer l'icône personnalisée
+        int n =1;
         searchView.setIconifiedByDefault(false);
         searchView.setIconified(false);
         searchView.setQueryHint("Recherche");
